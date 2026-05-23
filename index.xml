@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index version="1" name="ChrisMotan REAPER Scripts">
+
+  <category name="Automation">
+
+    <rstpkg name="ClearAutomation.lua">
+      <version name="1.0" author="ChrisMotan" time="2026-01-01T00:00:00Z">
+        <changelog>First release</changelog>
+        <source file="ClearAutomation.lua">
+          https://raw.githubusercontent.com/ChrisMotan/reaper-scripts/main/ClearAutomation.lua
+        </source>
+      </version>
+    </rstpkg>
+
+    <rstpkg name="RandomAutomation.lua">
+      <version name="1.0" author="ChrisMotan" time="2026-01-01T00:00:00Z">
+        <changelog>First release</changelog>
+        <source file="RandomAutomation.lua">
+          https://raw.githubusercontent.com/ChrisMotan/reaper-scripts/main/RandomAutomation.lua
+        </source>
+      </version>
+    </rstpkg>
+
+  </category>
+
+  <category name="Items">
+
+    <rstpkg name="ExtendItems.lua">
+      <version name="1.0" author="ChrisMotan" time="2026-01-01T00:00:00Z">
+        <changelog>First release</changelog>
+        <source file="ExtendItems.lua">
+          https://raw.githubusercontent.com/ChrisMotan/reaper-scripts/main/ExtendItems.lua
+        </source>
+      </version>
+    </rstpkg>
+
+  </category>
+
+  <category name="Project Management">
+
+    <rstpkg name="TemplatePicker.lua">
+      <version name="1.0" author="ChrisMotan" time="2026-01-01T00:00:00Z">
+        <changelog>First release</changelog>
+        <source file="TemplatePicker.lua">
+          https://raw.githubusercontent.com/ChrisMotan/reaper-scripts/main/TemplatePicker.lua
+        </source>
+      </version>
+    </rstpkg>
+
+    <rstpkg name="CourtMetrageManager.lua">
+      <version name="1.0" author="ChrisMotan" time="2026-01-01T00:00:00Z">
+        <changelog>First release</changelog>
+        <source file="CourtMetrageManager.lua">
+          https://raw.githubusercontent.com/ChrisMotan/reaper-scripts/main/CourtMetrageManager.lua
+        </source>
+      </version>
+    </rstpkg>
+
+  </category>
+
+  <category name="Reference">
+
+    <rstpkg name="MixMasterCheatSheet.lua">
+      <version name="1.0" author="ChrisMotan" time="2026-01-01T00:00:00Z">
+        <changelog>First release</changelog>
+        <source file="MixMasterCheatSheet.lua">
+          https://raw.githubusercontent.com/ChrisMotan/reaper-scripts/main/MixMasterCheatSheet.lua
+        </source>
+      </version>
+    </rstpkg>
+
+  </category>
+
+</index>
