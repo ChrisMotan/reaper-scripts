@@ -172,7 +172,7 @@ local function run_clear()
   -- Vérifications
   local s, e = reaper.GetSet_LoopTimeRange(false, false, 0, 0, false)
   if s == e then
-    status_msg = "⚠  Faites d'abord une sélection temporelle !"
+    status_msg = " Faites d'abord une sélection temporelle !"
     status_ok  = false ; return
   end
   local track = reaper.GetSelectedTrack(0, 0)
@@ -181,7 +181,7 @@ local function run_clear()
     status_ok  = false ; return
   end
   if not env_pan and not env_vol and not env_wid then
-    status_msg = "⚠  Cochez au moins une enveloppe !"
+    status_msg = " Cochez au moins une enveloppe !"
     status_ok  = false ; return
   end
 
