@@ -3,77 +3,59 @@
 
   <category name="Automation">
 
-    <package name="ClearAutomation.lua" type="script">
-      <metadata>
-        <description>Deletes envelope points (Volume, Pan, Width) from the selected track with precise control over which area to clear.</description>
-      </metadata>
+    <reapack name="ClearAutomation.lua" type="script" desc="Clear automation points on selected track">
       <version name="1.0" author="ChrisMotan" time="2026-01-01T00:00:00Z">
-        <changelog>First release</changelog>
-        <source file="Automation/ClearAutomation.lua">https://raw.githubusercontent.com/ChrisMotan/reaper-scripts/refs/heads/master/Automation/ClearAutomation.lua</source>
+        <changelog><![CDATA[First release]]></changelog>
+        <source main="main">https://raw.githubusercontent.com/ChrisMotan/reaper-scripts/refs/heads/master/Automation/ClearAutomation.lua</source>
       </version>
-    </package>
+    </reapack>
 
-    <package name="RandomAutomation.lua" type="script">
-      <metadata>
-        <description>Generates random automation points on Volume, Pan and/or Width envelopes within the time selection.</description>
-      </metadata>
+    <reapack name="RandomAutomation.lua" type="script" desc="Random automation generator for selected track">
       <version name="1.0" author="ChrisMotan" time="2026-01-01T00:00:00Z">
-        <changelog>First release</changelog>
-        <source file="Automation/RandomAutomation.lua">https://raw.githubusercontent.com/ChrisMotan/reaper-scripts/refs/heads/master/Automation/RandomAutomation.lua</source>
+        <changelog><![CDATA[First release]]></changelog>
+        <source main="main">https://raw.githubusercontent.com/ChrisMotan/reaper-scripts/refs/heads/master/Automation/RandomAutomation.lua</source>
       </version>
-    </package>
+    </reapack>
 
   </category>
 
   <category name="Items">
 
-    <package name="ExtendItems.lua" type="script">
-      <metadata>
-        <description>Moves the left or right edge of selected items to a precise position (timeline zero, timecode, or bar number).</description>
-      </metadata>
+    <reapack name="ExtendItems.lua" type="script" desc="Extend item edge to a target position">
       <version name="1.0" author="ChrisMotan" time="2026-01-01T00:00:00Z">
-        <changelog>First release</changelog>
-        <source file="Items/ExtendItems.lua">https://raw.githubusercontent.com/ChrisMotan/reaper-scripts/refs/heads/master/Items/ExtendItems.lua</source>
+        <changelog><![CDATA[First release]]></changelog>
+        <source main="main">https://raw.githubusercontent.com/ChrisMotan/reaper-scripts/refs/heads/master/Items/ExtendItems.lua</source>
       </version>
-    </package>
+    </reapack>
 
   </category>
 
   <category name="Project Management">
 
-    <package name="TemplatePicker.lua" type="script">
-      <metadata>
-        <description>Displays a window to browse and quickly load a REAPER project template, with a search bar.</description>
-      </metadata>
+    <reapack name="TemplatePicker.lua" type="script" desc="Project template picker with search bar">
       <version name="1.0" author="ChrisMotan" time="2026-01-01T00:00:00Z">
-        <changelog>First release</changelog>
-        <source file="Project-Management/TemplatePicker.lua">https://raw.githubusercontent.com/ChrisMotan/reaper-scripts/refs/heads/master/Project-Management/TemplatePicker.lua</source>
+        <changelog><![CDATA[First release]]></changelog>
+        <source main="main">https://raw.githubusercontent.com/ChrisMotan/reaper-scripts/refs/heads/master/Project-Management/TemplatePicker.lua</source>
       </version>
-    </package>
+    </reapack>
 
-    <package name="CourtMetrageManager.lua" type="script">
-      <metadata>
-        <description>Interface to navigate a short film project folder structure and directly open the corresponding .rpp files.</description>
-      </metadata>
+    <reapack name="CourtMetrageManager.lua" type="script" desc="Short film project manager">
       <version name="1.0" author="ChrisMotan" time="2026-01-01T00:00:00Z">
-        <changelog>First release</changelog>
-        <source file="Project-Management/CourtMetrageManager.lua">https://raw.githubusercontent.com/ChrisMotan/reaper-scripts/refs/heads/master/Project-Management/CourtMetrageManager.lua</source>
+        <changelog><![CDATA[First release]]></changelog>
+        <source main="main">https://raw.githubusercontent.com/ChrisMotan/reaper-scripts/refs/heads/master/Project-Management/CourtMetrageManager.lua</source>
       </version>
-    </package>
+    </reapack>
 
   </category>
 
   <category name="Reference">
 
-    <package name="MixMasterCheatSheet.lua" type="script">
-      <metadata>
-        <description>Reference interface with recommended EQ, compression and reverb settings for each instrument, by genre.</description>
-      </metadata>
+    <reapack name="MixMasterCheatSheet.lua" type="script" desc="Mix and mastering cheat sheet by instrument and genre">
       <version name="1.0" author="ChrisMotan" time="2026-01-01T00:00:00Z">
-        <changelog>First release</changelog>
-        <source file="Reference/MixMasterCheatSheet.lua">https://raw.githubusercontent.com/ChrisMotan/reaper-scripts/refs/heads/master/Reference/MixMasterCheatSheet.lua</source>
+        <changelog><![CDATA[First release]]></changelog>
+        <source main="main">https://raw.githubusercontent.com/ChrisMotan/reaper-scripts/refs/heads/master/Reference/MixMasterCheatSheet.lua</source>
       </version>
-    </package>
+    </reapack>
 
   </category>
 
