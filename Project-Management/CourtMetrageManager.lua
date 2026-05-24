@@ -117,9 +117,9 @@ local function find_fullmix_wavs(scene_path)
           local label
           local fname_upper = fname:upper()
           if fname_upper:match("INSTRU") then
-            label = "◈ Instrus"
+            label = " Instrus"
           else
-            label = "◈ FullMix"
+            label = " FullMix"
           end
           results[#results + 1] = {
             path  = fullmix_path .. "\\" .. fname,
