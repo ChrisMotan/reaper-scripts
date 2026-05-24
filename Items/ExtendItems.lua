@@ -180,7 +180,7 @@ end
 local function extend_items()
   local count = reaper.CountSelectedMediaItems(0)
   if count == 0 then
-    status_msg = "⚠  Sélectionne au moins un item !"
+    status_msg = " Sélectionne au moins un item !"
     status_ok  = false
     return
   end
@@ -225,7 +225,7 @@ local function loop()
   reaper.ImGui_SetNextWindowSize(ctx, WIN_W, WIN_H, reaper.ImGui_Cond_Once())
   reaper.ImGui_SetNextWindowPos(ctx, 200, 200, reaper.ImGui_Cond_Once())
 
-  local vis, open = reaper.ImGui_Begin(ctx, ' ⬡  EXTEND ITEMS', true,
+  local vis, open = reaper.ImGui_Begin(ctx, ' EXTEND ITEMS', true,
     reaper.ImGui_WindowFlags_NoResize())
 
   if vis then
@@ -333,7 +333,7 @@ local function loop()
     local edge_label = edge_mode == 0 and "◀  BORD GAUCHE" or "BORD DROIT  ▶"
     local avail = reaper.ImGui_GetContentRegionAvail(ctx)
     reaper.ImGui_SetCursorPosX(ctx, 16)
-    if colored_button("  ⬡  ÉTENDRE — " .. edge_label, avail, 36,
+    if colored_button("  ÉTENDRE — " .. edge_label, avail, 36,
                       btn_col, 0xFF8A5AFF, 0xFF3A20A0FF) then
       extend_items()
     end
