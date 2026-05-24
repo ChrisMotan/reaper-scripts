@@ -1,0 +1,27 @@
+name: reapack-index
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  reapack-index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Run reapack-index
+        uses: cfillion/reapack-index@master
+        with:
+          args: --no-commit --rebuild --output index.xml .
+
+      - name: Commit and push index.xml
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.xml
+          git diff --cached --quiet || git commit -m "Update index.xml [skip ci]"
+          git push
