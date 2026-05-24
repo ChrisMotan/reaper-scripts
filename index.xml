@@ -9,7 +9,7 @@
       </metadata>
       <version name="1.0" author="ChrisMotan" time="2026-01-01T00:00:00Z">
         <changelog>First release</changelog>
-        <source file="Automation/ClearAutomation.lua">https://raw.githubusercontent.com/ChrisMotan/reaper-scripts/refs/heads/main/Automation/ClearAutomation.lua</source>
+        <source file="Automation/ClearAutomation.lua">https://github.com/ChrisMotan/reaper-scripts/raw/master/Automation/ClearAutomation.lua</source>
       </version>
     </package>
 
@@ -19,7 +19,7 @@
       </metadata>
       <version name="1.0" author="ChrisMotan" time="2026-01-01T00:00:00Z">
         <changelog>First release</changelog>
-        <source file="Automation/RandomAutomation.lua">https://raw.githubusercontent.com/ChrisMotan/reaper-scripts/refs/heads/main/Automation/RandomAutomation.lua</source>
+        <source file="Automation/RandomAutomation.lua">https://github.com/ChrisMotan/reaper-scripts/raw/master/Automation/RandomAutomation.lua</source>
       </version>
     </package>
 
@@ -33,7 +33,7 @@
       </metadata>
       <version name="1.0" author="ChrisMotan" time="2026-01-01T00:00:00Z">
         <changelog>First release</changelog>
-        <source file="Items/ExtendItems.lua">https://raw.githubusercontent.com/ChrisMotan/reaper-scripts/refs/heads/main/Items/ExtendItems.lua</source>
+        <source file="Items/ExtendItems.lua">https://github.com/ChrisMotan/reaper-scripts/raw/master/Items/ExtendItems.lua</source>
       </version>
     </package>
 
@@ -47,7 +47,7 @@
       </metadata>
       <version name="1.0" author="ChrisMotan" time="2026-01-01T00:00:00Z">
         <changelog>First release</changelog>
-        <source file="Project-Management/TemplatePicker.lua">https://raw.githubusercontent.com/ChrisMotan/reaper-scripts/refs/heads/main/Project-Management/TemplatePicker.lua</source>
+        <source file="Project-Management/TemplatePicker.lua">https://github.com/ChrisMotan/reaper-scripts/raw/master/Project-Management/TemplatePicker.lua</source>
       </version>
     </package>
 
@@ -57,7 +57,7 @@
       </metadata>
       <version name="1.0" author="ChrisMotan" time="2026-01-01T00:00:00Z">
         <changelog>First release</changelog>
-        <source file="Project-Management/CourtMetrageManager.lua">https://raw.githubusercontent.com/ChrisMotan/reaper-scripts/refs/heads/main/Project-Management/CourtMetrageManager.lua</source>
+        <source file="Project-Management/CourtMetrageManager.lua">https://github.com/ChrisMotan/reaper-scripts/raw/master/Project-Management/CourtMetrageManager.lua</source>
       </version>
     </package>
 
@@ -71,7 +71,7 @@
       </metadata>
       <version name="1.0" author="ChrisMotan" time="2026-01-01T00:00:00Z">
         <changelog>First release</changelog>
-        <source file="Reference/MixMasterCheatSheet.lua">https://raw.githubusercontent.com/ChrisMotan/reaper-scripts/refs/heads/main/Reference/MixMasterCheatSheet.lua</source>
+        <source file="Reference/MixMasterCheatSheet.lua">https://github.com/ChrisMotan/reaper-scripts/raw/master/Reference/MixMasterCheatSheet.lua</source>
       </version>
     </package>
 
