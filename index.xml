@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index version="1" name="ChrisMotan REAPER Scripts">
 
+  <metadata>
+    <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}}
+{\b ChrisMotan REAPER Scripts}\line
+\line
+A collection of Lua scripts for REAPER built for my own workflow.\line
+\line
+I am not a developer — I am a composer. These scripts were made with the help of Claude (AI). Please excuse the code if it is not perfectly clean.\line
+\line
+I share what has helped me, hoping it can help others too.\line
+There may be more scripts in the future, but it is not my main focus — it happens when it happens.\line
+\line
+Everything is free. Use it, enjoy it.\line
+\line
+License: CC BY-NC-SA 4.0 — free to use and modify, not for sale.\line
+https://creativecommons.org/licenses/by-nc-sa/4.0/}]]></description>
+  </metadata>
+
   <category name="Automation">
 
     <reapack name="ClearAutomation.lua" type="script" desc="Clear automation points on selected track">
