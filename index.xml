@@ -4,6 +4,25 @@
   <category name="Automation">
 
     <reapack name="ClearAutomation.lua" type="script" desc="Clear automation points on selected track">
+      <metadata>
+        <description><![CDATA[Deletes envelope points (Volume, Pan, Width) from the selected track.
+
+MODES:
+- Between  : inside the time selection
+- Left     : to the left of the selection
+- Right    : to the right of the selection
+- Outside  : everything outside the selection
+- Whole    : the entire track
+
+HOW TO USE:
+1. Select a track in REAPER
+2. Make a time selection on the timeline
+3. Run the script
+4. Choose the mode and envelopes to clear
+5. Click CLEAR
+
+Requires ReaImGui.]]></description>
+      </metadata>
       <version name="1.0" author="ChrisMotan" time="2026-01-01T00:00:00Z">
         <changelog><![CDATA[First release]]></changelog>
         <source main="main">https://raw.githubusercontent.com/ChrisMotan/reaper-scripts/refs/heads/master/Automation/ClearAutomation.lua</source>
@@ -11,6 +30,26 @@
     </reapack>
 
     <reapack name="RandomAutomation.lua" type="script" desc="Random automation generator for selected track">
+      <metadata>
+        <description><![CDATA[Generates random automation points on Volume, Pan and/or Width envelopes within the time selection.
+
+PARAMETERS:
+- Enable/disable Pan, Volume, Width
+- Number of points to generate
+- Auto or manual spacing (in seconds)
+- Pan amplitude (%)
+- Volume min/max values (dB)
+- Width amplitude (%)
+
+HOW TO USE:
+1. Select a track
+2. Make a time selection
+3. Run the script
+4. Set the parameters in the dialog
+5. Click OK to generate (window stays open to run again)
+
+No ReaImGui required.]]></description>
+      </metadata>
       <version name="1.0" author="ChrisMotan" time="2026-01-01T00:00:00Z">
         <changelog><![CDATA[First release]]></changelog>
         <source main="main">https://raw.githubusercontent.com/ChrisMotan/reaper-scripts/refs/heads/master/Automation/RandomAutomation.lua</source>
@@ -22,6 +61,24 @@
   <category name="Items">
 
     <reapack name="ExtendItems.lua" type="script" desc="Extend item edge to a target position">
+      <metadata>
+        <description><![CDATA[Moves the left or right edge of selected items to a precise position.
+
+TARGET POSITIONS:
+- Timeline Zero  : moves the edge to 0:00
+- Timecode       : enter minutes / seconds / centiseconds manually
+- Bar number     : enter a bar number
+
+HOW TO USE:
+1. Select one or more items on the timeline
+2. Run the script
+3. Choose which edge to extend (left or right)
+4. Choose the target position
+5. Click EXTEND
+
+Built-in Undo/Redo button included.
+Requires ReaImGui.]]></description>
+      </metadata>
       <version name="1.0" author="ChrisMotan" time="2026-01-01T00:00:00Z">
         <changelog><![CDATA[First release]]></changelog>
         <source main="main">https://raw.githubusercontent.com/ChrisMotan/reaper-scripts/refs/heads/master/Items/ExtendItems.lua</source>
@@ -33,6 +90,23 @@
   <category name="Project Management">
 
     <reapack name="TemplatePicker.lua" type="script" desc="Project template picker with search bar">
+      <metadata>
+        <description><![CDATA[Browse and quickly load a REAPER project template from a searchable list.
+
+HOW TO USE:
+1. Run the script
+2. Use the search bar to filter templates
+3. Click a template to select it
+4. Click OPEN or double-click the name
+
+CONFIGURATION:
+The script auto-detects your REAPER ProjectTemplates folder.
+If it does not work, edit TEMPLATE_PATH at the top of the file:
+  Windows : "C:\\Users\\YOUR_NAME\\AppData\\Roaming\\REAPER\\ProjectTemplates\\"
+  macOS   : os.getenv("HOME") .. "/Library/Application Support/REAPER/ProjectTemplates/"
+
+Requires ReaImGui.]]></description>
+      </metadata>
       <version name="1.0" author="ChrisMotan" time="2026-01-01T00:00:00Z">
         <changelog><![CDATA[First release]]></changelog>
         <source main="main">https://raw.githubusercontent.com/ChrisMotan/reaper-scripts/refs/heads/master/Project-Management/TemplatePicker.lua</source>
@@ -40,6 +114,23 @@
     </reapack>
 
     <reapack name="CourtMetrageManager.lua" type="script" desc="Short film project manager">
+      <metadata>
+        <description><![CDATA[Navigate a short film project folder structure and open .rpp files directly.
+
+EXPECTED FOLDER STRUCTURE:
+  SHORT_FILMS/
+    MY_FILM_C1/       (project folder, suffix _CX)
+      MY_FILM_Zik/    (music folder, suffix _Zik)
+        scene01A/     (scene folder)
+          scene01A.rpp
+
+CONFIGURATION:
+Edit court_metrage_path at the top of the file:
+  Windows : "D:\\MY_PROJECTS\\SHORT_FILMS"
+  macOS   : "/Users/your_name/Projects/Short_Films"
+
+Requires ReaImGui.]]></description>
+      </metadata>
       <version name="1.0" author="ChrisMotan" time="2026-01-01T00:00:00Z">
         <changelog><![CDATA[First release]]></changelog>
         <source main="main">https://raw.githubusercontent.com/ChrisMotan/reaper-scripts/refs/heads/master/Project-Management/CourtMetrageManager.lua</source>
@@ -51,6 +142,21 @@
   <category name="Reference">
 
     <reapack name="MixMasterCheatSheet.lua" type="script" desc="Mix and mastering cheat sheet by instrument and genre">
+      <metadata>
+        <description><![CDATA[Reference interface with recommended EQ, compression and reverb settings for each instrument, organized by musical genre.
+
+GENRES: Rock, Hip-Hop, Jazz, Electronic, and more.
+INSTRUMENTS: Drums (Kick, Snare, Hi-Hats, Overhead, Toms), Bass, Guitars, Vocals, Keys.
+
+HOW TO USE:
+1. Run the script
+2. Select the musical genre
+3. Browse by instrument to see EQ / Compressor / Reverb suggestions
+
+This is a reference tool — values are starting points, not rules. Trust your ears!
+
+Requires ReaImGui.]]></description>
+      </metadata>
       <version name="1.0" author="ChrisMotan" time="2026-01-01T00:00:00Z">
         <changelog><![CDATA[First release]]></changelog>
         <source main="main">https://raw.githubusercontent.com/ChrisMotan/reaper-scripts/refs/heads/master/Reference/MixMasterCheatSheet.lua</source>
